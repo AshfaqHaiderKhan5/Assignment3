@@ -9,10 +9,8 @@
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
   }
   
-  /* Header Styles */
   header {
     background-color: #333;
     color: white;
@@ -35,22 +33,32 @@
     font-size: 18px;
   }
   
-  .hero {
+  .projects {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .projects h2 {
     text-align: center;
-    padding: 100px 20px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
   }
   
-  .hero h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+  .project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   
-  .hero p {
-    font-size: 1.5em;
-    color: #bbb;
+  .project {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
   }
   
-  /* Footer */
   footer {
     text-align: center;
     padding: 10px 0;
